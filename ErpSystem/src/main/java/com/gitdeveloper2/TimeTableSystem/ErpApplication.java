@@ -1,6 +1,6 @@
-package com.gitdeveloper2.ERP;
+package com.gitdeveloper2.TimeTableSystem;
 
-import com.gitdeveloper2.ERP.logutils.MyLogger;
+import com.gitdeveloper2.TimeTableSystem.logutils.MyLogger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

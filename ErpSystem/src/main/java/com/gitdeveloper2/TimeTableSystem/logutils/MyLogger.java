@@ -1,4 +1,4 @@
-package com.gitdeveloper2.ERP.logutils;
+package com.gitdeveloper2.TimeTableSystem.logutils;
 
 
 

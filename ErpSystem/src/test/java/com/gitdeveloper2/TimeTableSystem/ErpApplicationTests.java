@@ -1,4 +1,4 @@
-package com.gitdeveloper2.ERP;
+package com.gitdeveloper2.TimeTableSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -5,27 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291db4e0-79e3-4c41-a060-b61112fd3275" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/TimeTableSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/logutils/LogFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/logutils/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/test/java/com/gitdeveloper2/TimeTableSystem/ErpApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/domain/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/domain/course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/domain/department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/domain/instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/domain/meetingTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/domain/room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/schedule/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/schedule/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/schedule/GeneticAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/schedule/Population.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeTableSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/geneticalgorithm/schedule/Schedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErpSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ErpSystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErpSystem/src/main/java/com/gitdeveloper2/ERP/ErpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ErpSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/ErpApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErpSystem/src/main/java/com/gitdeveloper2/ERP/logutils/LogFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ErpSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/logutils/LogFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErpSystem/src/main/java/com/gitdeveloper2/ERP/logutils/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/ErpSystem/src/main/java/com/gitdeveloper2/TimeTableSystem/logutils/MyLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErpSystem/src/test/java/com/gitdeveloper2/ERP/ErpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ErpSystem/src/test/java/com/gitdeveloper2/TimeTableSystem/ErpApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/home/hashicorp/Music/ERP/CollegeERP/TimeTableSystem",
+    "last_opened_file_path": "/home/hashicorp/Music/ERP/CollegeERP/TimeTableSystem/src/main/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -60,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TimeTableSystem/src/main/java" />
       <recent name="$PROJECT_DIR$/TimeTableSystem" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/ErpSystem" />
@@ -110,7 +114,19 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
